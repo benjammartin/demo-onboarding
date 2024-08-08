@@ -37,7 +37,7 @@
   background-origin: border-box;
   border-radius: 6px;
   padding-inline: 1rem;
-  padding-block: 12px 16px;
+  padding-block: 16px 16px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -63,14 +63,24 @@
   background-clip: padding-box, border-box;
 
   .content {
+
+    .svg {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 4px;
+    }
+
     .title {
       all: unset;
       color: #1A1523;
       font-family: "SF Pro Text";
+      display: block;
       font-size: 14px;
       font-weight: 600;
       line-height: 24px; 
     }
+
+    
 
     .description {
       all: unset;
