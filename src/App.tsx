@@ -51,7 +51,7 @@ const OnboardingCard: React.FC = () => {
   const [progress, setProgress] = React.useState(0);
 
   React.useEffect(() => {
-    const timer = setTimeout(() => setProgress(0), 500);
+    const timer = setTimeout(() => setProgress(10), 500);
     return () => clearTimeout(timer);
   }, []);
 
