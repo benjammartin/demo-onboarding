@@ -24,7 +24,7 @@ const ArrowSvg: React.FC = () => {
       xmlns="http://www.w3.org/2000/svg"
       className={styles.svg}
     >
-      <g clip-path="url(#clip0_848_4563)">
+      <g clipPath="url(#clip0_848_4563)">
         <rect
           x="0.5"
           y="0.5"
